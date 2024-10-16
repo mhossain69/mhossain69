@@ -1,1 +1,19 @@
+This is Question 1
+Based on the questions and the context from the image, here are the correct answers explained:
+
+Mutable, Indexable, has a .split() method:
+
+Correct answer: String. Strings are indexable and have a .split() method. Although they are immutable, they meet the criteria listed (this may be a tricky question).
+Cannot be a dictionary key:
+
+Correct answer: List. Lists are mutable, so they cannot be used as dictionary keys in Python, while immutable types like strings and tuples can be used as keys.
+Cannot use .insert() or .add():
+
+Correct answer: Tuple. Tuples are immutable, so you cannot modify them by inserting elements or adding new elements after creation.
+Non-indexed, Mutable:
+
+Correct answer: Dictionary. Dictionaries are mutable, but they are non-indexed in the traditional sense (they use key-value pairs, not numeric indexes).
+Let me know if you need further clarification on any of these!
+
+
 
