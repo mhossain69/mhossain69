@@ -1,18 +1,1 @@
-Question 1:
-The correct answers for the questions in the image are:
-
-Mutable, Indexable, has a .split() method:
-
-Correct answer: String (because a string can be split and is indexable, though not mutable).
-Cannot be a dictionary key:
-
-Correct answer: List (lists are mutable and cannot be used as dictionary keys).
-Cannot use .insert() or .add():
-
-Correct answer: Tuple (tuples are immutable, and methods like .insert() or .add() cannot be used on them).
-Non-indexed, Mutable:
-
-Correct answer: Dictionary (dictionaries are mutable, but their elements are accessed by keys, not by index).
-
-
-
+Text based answers
