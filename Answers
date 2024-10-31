@@ -59,3 +59,20 @@ Let's analyze the code snippet:
 Final Answer:
 The output of the code snippet is:
 open
+
+
+
+Question 6:
+1. Is it a function or a method?
+        Answer: method
+
+2. If it is a method, what datatype does it belong to?
+        Answer: list
+
+3. What datatype is the first argument?
+        Answer: integer (the first argument specifies the index at which to insert)
+
+4. What datatype gets returned?
+        Answer: None (the insert() method modifies the list in place and returns None)
+
+
