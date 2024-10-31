@@ -1,6 +1,4 @@
 Question 1:
-Based on the terms and the descriptions provided, here’s the best possible matching:
-
     Append - "you can do it with lists but not sets."
     Definite Iteration - "when you loop for a known number of times."
     mutable - "changes the original variable."
@@ -12,23 +10,35 @@ Based on the terms and the descriptions provided, here’s the best possible mat
     Scope - "this explains why you can have two variables with the same name but different values."
     Break Point - "used to pause the execution of Python code inside the debugger."
 
-This should cover all terms with the most fitting descriptions. Let me know if you need further clarification!
-
 
 Question 2:
 The correct answer is:
-
 B. set(l1 + l2)
 
 Explanation:
-
     The desired output is a set containing unique elements from both lists l1 and l2.
     Using set(l1 + l2) combines the two lists, removes duplicates, and creates a set with the unique elements from both lists.
 
 The other options don't achieve this:
-
     A (list(l1).append(l2)) appends l2 as a single item to the list, resulting in a nested list structure.
     C (set(set(l1) + l2)) is invalid syntax as you cannot add a set and a list directly.
     D (list(l2).intersection(l1)) would only give the intersection of the two lists, not the union.
 
 Thus, B is the correct command.
+
+
+Question 4:
+To answer this question, let's break down the code snippet:
+'AUTOMATION'[:-4].lower()
+
+    Slicing [:-4]:
+        [:-4] takes all characters from the beginning of the string up to (but not including) the last four characters.
+        'AUTOMATION'[:-4] results in 'AUTOM'.
+
+    Applying .lower():
+        .lower() converts the string to lowercase.
+        So, 'AUTOM'.lower() becomes 'autom'.
+
+Final Answer:
+The output of the code snippet is:
+autom
