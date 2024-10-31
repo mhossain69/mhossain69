@@ -14,3 +14,21 @@ Based on the terms and the descriptions provided, here’s the best possible mat
 
 This should cover all terms with the most fitting descriptions. Let me know if you need further clarification!
 
+
+Question 2:
+The correct answer is:
+
+B. set(l1 + l2)
+
+Explanation:
+
+    The desired output is a set containing unique elements from both lists l1 and l2.
+    Using set(l1 + l2) combines the two lists, removes duplicates, and creates a set with the unique elements from both lists.
+
+The other options don't achieve this:
+
+    A (list(l1).append(l2)) appends l2 as a single item to the list, resulting in a nested list structure.
+    C (set(set(l1) + l2)) is invalid syntax as you cannot add a set and a list directly.
+    D (list(l2).intersection(l1)) would only give the intersection of the two lists, not the union.
+
+Thus, B is the correct command.
