@@ -101,3 +101,34 @@ Usage:
   You can now call the lt_spk function in the interpreter with a string argument if you want to see its output, like ltspk.lt_spk("some sentence").
 
 In summary, importing ltspk will load the function and variables but will not execute the main code block that prints the result.
+
+
+
+
+Question 9:
+When the command python3 ./ltspk.py "iS iT" is run, here’s what happens:
+    Input Argument:
+        The input string provided to the script is "iS iT", which is passed as an argument to the lt_spk function.
+
+    Character Replacement:
+        The lt_spk function processes each character in the input string and replaces specific vowels and consonants according to the lookup dictionary:
+            i is mapped to 1
+            S is mapped to 5
+            T is mapped to 7
+
+    Output Calculation:
+        Processing "iS iT":
+            i → 1
+            S → 5
+            (space) remains as is
+            i → 1
+            T → 7
+        The final transformed string is "15 17".
+
+    Printing:
+        The function first prints result inside lt_spk, so "15 17" will be printed.
+        Then, the main block prints y, which also contains "15 17".
+
+Final Output:
+15 17
+15 17
