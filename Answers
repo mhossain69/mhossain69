@@ -42,3 +42,20 @@ To answer this question, let's break down the code snippet:
 Final Answer:
 The output of the code snippet is:
 autom
+
+
+Question 5:
+Let's analyze the code snippet:
+'OPEN SOURCE'[-10:4].lower()
+
+    Slicing [-10:4]:
+        The string 'OPEN SOURCE' has a length of 10.
+        [-10:4] means starting from the 10th character from the end (which is the beginning of the string) up to (but not including) the 4th index.
+        'OPEN SOURCE'[-10:4] extracts 'OPEN'.
+
+    Applying .lower():
+        Converting 'OPEN' to lowercase results in 'open'.
+
+Final Answer:
+The output of the code snippet is:
+open
