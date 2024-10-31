@@ -84,3 +84,20 @@ Explanation:
 This line is a for loop that iterates over each character c in the sentence string, processing each character one at a time.
 In-line Comment:
 for c in sentence:  # Iterate over each character in the sentence
+
+
+
+
+Question 8:
+If you open the Python interpreter and run import ltspk, the following happens:
+
+No Immediate Output:
+  The code under if __name__ == "__main__": does not execute, because this block only runs when the script is executed directly, not when it's imported as a module.
+
+Definitions Are Loaded:
+  The interpreter loads the definitions in ltspk.py, including the lt_spk function and the test variable, making them available for use.
+
+Usage:
+  You can now call the lt_spk function in the interpreter with a string argument if you want to see its output, like ltspk.lt_spk("some sentence").
+
+In summary, importing ltspk will load the function and variables but will not execute the main code block that prints the result.
