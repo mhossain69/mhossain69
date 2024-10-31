@@ -76,3 +76,11 @@ Question 6:
         Answer: None (the insert() method modifies the list in place and returns None)
 
 
+Question 7:
+The line with the # symbol is:
+for c in sentence:  # 
+
+Explanation:
+This line is a for loop that iterates over each character c in the sentence string, processing each character one at a time.
+In-line Comment:
+for c in sentence:  # Iterate over each character in the sentence
