@@ -1,1 +1,20 @@
 Text based answers
+Question 1:
+
+The answers for the left-side prompts are as follows:
+
+Immutable, Indexable, has a .split().
+
+Answer: String
+Cannot be a dictionary key.
+
+Answer: List
+Cannot use .insert() or .add(), faster than a list.
+
+Answer: Tuple
+Often used for input validation
+
+Answer: Set
+
+Question 2:
+
