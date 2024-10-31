@@ -1,1 +1,16 @@
+Question 1:
+Based on the terms and the descriptions provided, here’s the best possible matching:
+
+    Append - "you can do it with lists but not sets."
+    Definite Iteration - "when you loop for a known number of times."
+    mutable - "changes the original variable."
+    Iteration - "handle a group of things one at a time using a loop."
+    Indefinite Iteration - "when you don't know how many times a loop will occur."
+    Step Over - "one way of using a debugger, which does not enter into a Function."
+    Modulo - "gives the remainder of an integer division."
+    Immutable - "can't be modified after being created."
+    Scope - "this explains why you can have two variables with the same name but different values."
+    Break Point - "used to pause the execution of Python code inside the debugger."
+
+This should cover all terms with the most fitting descriptions. Let me know if you need further clarification!
 
