@@ -1,1 +1,21 @@
 Answers here:
+
+Question 1:
+Here are the answers from the left side of the image:
+
+Mutable, Indexable, has a .split().
+
+Your Answer: List
+Correct Answer: String
+Cannot be a dictionary key.
+
+Your Answer: Set
+Correct Answer: List
+Cannot use .insert() or .add().
+
+Your Answer: List
+Correct Answer: Tuple
+Non-indexed, Mutable
+
+Your Answer: None selected
+Correct Answer: Dictionary
